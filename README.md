@@ -8,42 +8,42 @@ This repository implements a hybrid image encryption system combining **deep lea
 
 ## 🔧 Features
 
-- 📷 AES-128 Image Encryption & Decryption
-- 🧠 Deep Feature Extraction using VGG16
-- 🔑 Secure Key Generation via SHA-256 hashing
-- 📊 Security Evaluation: Entropy, Histogram, Pixel Correlation
-- 🖥️ Tkinter-based GUI for intuitive interaction
+- 📷 AES-128 Image Encryption & Decryption  
+- 🧠 Deep Feature Extraction using VGG16  
+- 🔑 Secure Key Generation via SHA-256 hashing  
+- 📊 Security Evaluation: Entropy, Histogram, Pixel Correlation  
+- 🖥️ Tkinter-based GUI for intuitive interaction  
 
 ---
 
 ## 🏗️ System Architecture
 
-Image Input
+Image Input  
 │
 ▼
-Feature Extraction (VGG16)
+Feature Extraction (VGG16)  
 │
 ▼
-Key Generation (SHA-256)
+Key Generation (SHA-256)  
 │
 ▼
-AES Encryption ↔ AES Decryption
+AES Encryption ↔ AES Decryption  
 │
 ▼
-Image Output + Security Analysis
+Image Output + Security Analysis  
 
 ---
 
 ## 📁 Project Structure
 
-├── app_gui.py # GUI entry point
-├── aes_cipher.py # AES encryption/decryption logic
-├── feature_extractor.py # VGG16-based deep feature extractor
-├── key_generator.py # SHA-256 key generation from features
-├── image_utils.py # Image I/O and conversion utilities
-├── metrics.py # Image entropy and correlation metrics (v1)
-├── security_metrics.py # Refined security metrics module
-├── requirements.txt # Python dependencies
+├── app_gui.py # GUI entry point  
+├── aes_cipher.py # AES encryption/decryption logic  
+├── feature_extractor.py # VGG16-based deep feature extractor  
+├── key_generator.py # SHA-256 key generation from features  
+├── image_utils.py # Image I/O and conversion utilities  
+├── metrics.py # Image entropy and correlation metrics (v1)  
+├── security_metrics.py # Refined security metrics module  
+├── requirements.txt # Python dependencies  
 ---
 
 ## ▶️ Usage
