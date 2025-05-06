@@ -84,6 +84,8 @@ Save output image
 
 ## 🛡️ Security Evaluation
 Metrics Included:
+
+
 Entropy (Shannon): Measures image randomness post-encryption.
 
 Pixel Correlation: Analyzes structural diffusion in horizontal/vertical directions.
